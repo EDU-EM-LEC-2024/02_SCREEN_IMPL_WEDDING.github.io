@@ -7,16 +7,17 @@
     color:rgb(58, 58, 58);
 }
 body{
-    margin : 0px;
-    width : 480px;
+   
+    /* 480px */
+    width : 30rem; 
     margin :0 auto;
     background-color: beige;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    
+
 }
 .wrapper{
-    width : 380px;
+    /* 380px */
+    width : 23.75rem;
     background-color: white;
     margin :0 auto;
     text-align:center;
