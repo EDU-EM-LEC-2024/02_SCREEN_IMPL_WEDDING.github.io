@@ -1,0 +1,31 @@
+*{
+    box-sizing : border-box;
+    position:relative;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:0.98rem;
+    font-weight:400;
+    color:rgb(58, 58, 58);
+}
+body{
+    margin : 0px;
+    width : 480px;
+    margin :0 auto;
+    background-color: beige;
+}
+.wrapper{
+    width : 380px;
+    background-color: white;
+    margin :0 auto;
+    text-align:center;
+}
+
+/* header */
+.wrapper>header{}
+
+/* main */
+.wrapper>main{}
+.wrapper>main>section{}
+
+/* footer */
+.wrapper>footer{}
+

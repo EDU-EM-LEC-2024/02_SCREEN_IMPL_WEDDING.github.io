@@ -1,0 +1,57 @@
+
+.wrapper>main>section:nth-child(3){}
+.wrapper>main>section:nth-child(3)>.contents{}
+.wrapper>main>section:nth-child(3)>.contents>div{
+    margin:20px 0px;
+}
+.wrapper>main>section:nth-child(3)>.contents>.title{
+}
+.wrapper>main>section:nth-child(3)>.contents>.title>.m-title{
+    margin-bottom:10px;
+    color:rgb(187, 187, 187);
+}
+.wrapper>main>section:nth-child(3)>.contents>.title>.sub-title{
+    font-size:1.2rem;
+}
+
+.wrapper>main>section:nth-child(3)>.contents>.sentence-01{}
+
+.wrapper>main>section:nth-child(3)>.contents>.image-block-01{
+   
+}
+.wrapper>main>section:nth-child(3)>.contents>.image-block-01>img{
+    width:100%;
+    border-radius: 10px;
+    margin:20px 0px;
+}
+.wrapper>main>section:nth-child(3)>.contents>.sentence-02{
+    letter-spacing: 2px;
+    margin:20px 0px;
+}
+.wrapper>main>section:nth-child(3)>.contents>.sentence-02 span{
+    font-size:1.2rem;
+}
+
+.wrapper>main>section:nth-child(3)>.contents>.btn-block{
+
+}
+.wrapper>main>section:nth-child(3)>.contents>.btn-block>button{
+    width:200px;
+    height:35px;
+    margin : 0 auto;
+    border-radius: 25px;
+    border : 1px solid lightgray;
+    background-color: white;
+    color :gray;
+
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:0.9rem;
+}
+
+.wrapper>main>section:nth-child(3)>.contents>.btn-block>button>span{
+    font-size:0.9rem;
+    margin-right:5px;
+}

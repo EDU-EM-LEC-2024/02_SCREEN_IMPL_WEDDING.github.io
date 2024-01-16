@@ -1,0 +1,75 @@
+/* header */
+.wrapper>header{}
+
+.wrapper>header>nav{
+    height : 130px;
+    padding : 48px 0px 30px 0px;
+}
+
+.wrapper>header>nav>div:nth-child(1){
+    font-size:1.8rem;
+}
+.wrapper>header>nav>div:nth-child(2){
+    letter-spacing: 2px;
+}
+
+/* main */
+.wrapper>main{}
+.wrapper>main>section{
+    width : 335px;
+    padding : 40px 0px;
+    margin : 0 auto;
+    
+    position:relative;
+    /* border : 1px solid; */
+}
+/* section_01 */
+.wrapper>main>section:nth-child(1) img{
+    width:100%;
+    position:relative;
+    opacity: 1;  
+}
+
+.wrapper>main>section:nth-child(1) video{
+    width:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    opacity: 1;
+    visibility: initial;
+    
+    /* 중요 */
+    /*     
+    블렌딩 모드를 설정하는 것입니다. screen은 그 중 하나로, 두 개의 색상을 조합하는 방식을 나타냅니다.
+    screen 블렌딩 모드는 다음과 같이 설명됩니다:
+    Screen (스크린): 두 색상을 반전하고, 그 결과를 다시 반전시킵니다. 두 색상 중 하나라도 투명하면 다른 색상이 나타납니다. 둘 다 투명하지 않으면 화면이 흰색에 가까워지고, 투명한 부분은 투명한 상태를 유지합니다. 
+    */
+    mix-blend-mode: screen;
+}
+.wrapper>main>section:nth-child(1) .bottom{
+    margin-top : 30px;
+}
+.wrapper>main>section:nth-child(1) .bottom>.name{
+    font-size:1.1rem;
+    font-weight: 600;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom : 15px;
+}
+.wrapper>main>section:nth-child(1) .bottom>.name>.groom{}
+.wrapper>main>section:nth-child(1) .bottom>.name>.divider{
+    position:relative;
+    width:50px;
+}
+
+.wrapper>main>section:nth-child(1) .bottom>.name>.divider::after{
+
+}
+
+.wrapper>main>section:nth-child(1) .bottom>.name>.bride{}
+
+
+/* footer */
+.wrapper>footer{}
+
