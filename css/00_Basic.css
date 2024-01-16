@@ -11,6 +11,9 @@ body{
     width : 480px;
     margin :0 auto;
     background-color: beige;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 .wrapper{
     width : 380px;
