@@ -9,7 +9,8 @@
 body{
    
     /* 480px */
-    width : 30rem; 
+    /* width : 30rem;  */
+    width : 23.75rem;
     margin :0 auto;
     background-color: beige;
     
