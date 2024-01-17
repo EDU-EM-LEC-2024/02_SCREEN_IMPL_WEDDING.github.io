@@ -120,7 +120,7 @@
 
 
 .wrapper>main>section:nth-child(5) input[type="checkbox"]:checked~.gallery-block{
-   overflow:visible;
+  height:100%;
    
     
 }
