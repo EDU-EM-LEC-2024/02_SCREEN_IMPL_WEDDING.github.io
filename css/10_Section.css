@@ -27,7 +27,8 @@
 }
 
 .wrapper>main>section:nth-child(10)>.contents>div{
-    font-size:1.2rem;
+    font-size:1rem;
+    color:rgb(82, 69, 72);
 }
 
 .wrapper>main>section:nth-child(10)>.accordion{
