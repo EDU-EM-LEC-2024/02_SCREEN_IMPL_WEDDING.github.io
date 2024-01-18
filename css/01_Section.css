@@ -57,17 +57,22 @@
     align-items: center;
     margin-bottom : 15px;
 }
-.wrapper>main>section:nth-child(1) .bottom>.name>.groom{}
+.wrapper>main>section:nth-child(1) .bottom>.name>.groom{
+    font-size:1.3rem;
+}
 .wrapper>main>section:nth-child(1) .bottom>.name>.divider{
     position:relative;
     width:50px;
+    font-size:1.3rem;
 }
 
 .wrapper>main>section:nth-child(1) .bottom>.name>.divider::after{
 
 }
 
-.wrapper>main>section:nth-child(1) .bottom>.name>.bride{}
+.wrapper>main>section:nth-child(1) .bottom>.name>.bride{
+    font-size:1.3rem;
+}
 
 
 /* footer */
