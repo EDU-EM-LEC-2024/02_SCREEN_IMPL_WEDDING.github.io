@@ -1,5 +1,5 @@
 .wrapper>main>section:nth-child(11){
-    height:350px;
+    height:400px;
     
 }
 .wrapper>main>section:nth-child(11)>.title01{
@@ -52,11 +52,11 @@
     border-radius: 20px;
     text-decoration: none;
 
-    background-color: coral;
+    background-color: rgb(208, 185, 185);
     color:white;
-    opacity: .9;
+    opacity: 1;
 
-    margin-top:5px;
+    margin-top:15px;
     position:absolute;
     right:0;
     
