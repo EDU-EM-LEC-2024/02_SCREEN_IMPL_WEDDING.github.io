@@ -5,7 +5,8 @@
 
 
 .wrapper>main>section:nth-child(10)>.contents{
-    margin-bottom:40px;
+    margin-bottom:30px;
+    
 }
 .wrapper>main>section:nth-child(10)>.contents::before{
     content:"";
@@ -25,6 +26,9 @@
     background-position: center;
 }
 
+.wrapper>main>section:nth-child(10)>.contents>div{
+    font-size:1.2rem;
+}
 
 .wrapper>main>section:nth-child(10)>.accordion{
     width : 320px;
@@ -54,14 +58,21 @@
 
     /*  style="height:50px;border:1px solid;margin-bottom:5px;" */
 }
+.wrapper>main>section:nth-child(10)>.accordion .accordion-button>div>span{
+    font-size:.8rem;
+}
 .wrapper>main>section:nth-child(10)>.accordion .accordion-button::after{
     flex-shrink: 0;
     width: 0.7rem;
     height: 0.7rem;
     content: "";
-    background-size: 0.7rem
+    background-size: 0.7rem;
+   
 }
 
+.wrapper>main>section:nth-child(10)>.accordion .accordion-body{
+   
+}
 .wrapper>main>section:nth-child(10)>.accordion .accordion-body>div{
     height:60px;
     padding : 15px 0px;
@@ -78,7 +89,7 @@
 }
 
 .wrapper>main>section:nth-child(10)>.accordion .accordion-body span,a,div{
-    font-size:0.8rem;
+    font-size:.8rem;
 }
 .wrapper>main>section:nth-child(10)>.accordion .accordion-body>div>.account{
     display:flex;
@@ -89,7 +100,7 @@
 }
 
 .wrapper>main>section:nth-child(10)>.accordion .accordion-body>div>.account>.left{
-
+   
 }
 .wrapper>main>section:nth-child(10)>.accordion .accordion-body>div>.account>.right{}
 .wrapper>main>section:nth-child(10)>.accordion .accordion-body>div>.name{
@@ -112,3 +123,7 @@
     color : gray;
     box-shadow: 2px 2px 2px lightgray;
 }
+
+
+
+
