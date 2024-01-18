@@ -58,6 +58,8 @@
     <link rel="stylesheet" href="./css/14_Modal_03Section_연락하기.css">
     <!-- 15_Modal_09Section_참석의사전달하기 -->
     <link rel="stylesheet" href="./css/15_Modal_09Section_참석의사전달하기.css">
+    <!-- 16_Modal_11Section_방명록 -->
+    <link rel="stylesheet" href="./css/16_Modal_11Section_방명록.css">
     
   </head>
   <body>
@@ -724,7 +726,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                    <form action="" >
+                    <form action=""  onsubmit="return false">
                       <table>
                         <tr>
                           <td class="left fontstyle">구분</td>
@@ -785,19 +787,43 @@
        <!-- 
         11 방명록작성하기 Modal
         -->
-        <div class="modal fade" id="section_11_modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal fade section_11_md" id="section_11_modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div class="modal-dialog  modal-dialog-centered">
             <div class="modal-content">
               <div class="modal-header">
-                HEADER
+
+                <div class="title">방명록</div>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                BODY
+                <form action="" onsubmit="return false">
+                  <table>
+                    <tr>
+                      <td style="width:80px;">이름</td>
+                      <td style="width:200px;"><input type="text" class="form-control fontstyle"></td>
+                    </tr>
+                    <tr>
+                      <td>비밀번호</td> 
+                      <td><input type="password"  class="form-control fontstyle"></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2">
+                        <textarea name="" id="" cols="30" rows="10" class="form-control fontstyle" placeholder="100자 이내로 입력해주세요." ></textarea>
+                      </td>
+                    
+                    </tr>
+                    <tr>
+                      <td colspan="2">
+                        <button class="btn btn-danger w-100">작성하기</button>
+                      </td>
+                     
+                    </tr>
+                    
+                  </table>
+                  
+                </form>
               </div>
-              <div class="modal-footer">
-                FOOTER
-              </div>
+
             </div>
           </div>
         </div>
