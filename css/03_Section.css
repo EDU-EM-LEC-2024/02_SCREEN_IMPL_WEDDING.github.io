@@ -55,3 +55,9 @@
     font-size:0.9rem;
     margin-right:5px;
 }
+
+
+.wrapper>main>section:nth-child(3)>.contents>.btn-block>button a{
+    text-decoration: none;
+    color :gray;
+}

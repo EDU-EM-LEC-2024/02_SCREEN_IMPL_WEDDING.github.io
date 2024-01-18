@@ -134,7 +134,7 @@
           <div class="btn-block">
               <button>
                 <span class="material-symbols-outlined">call</span>  
-                <span>연락하기</span>
+                <span><a href="">연락하기</a></span>
               </button>
           </div>
 
@@ -469,37 +469,86 @@
           <div>마음 전하실 곳</div>
         </div>
         
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item mb-3">
+        <div class="accordion " id="accordionExample">
+           <!-- 신랑 -->
+          <div class="accordion-item ">
             <h2 class="accordion-header" id="headingOne" >
-              <button class="accordion-button"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
-                <div style="display:block;width:100%;text-align:center;">
+              <button class="accordion-button collapsed"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" >
+                <div >
                   <span>신랑측 계좌번호</span>
                 </div>  
               </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <div style="height:50px;border:1px solid;margin-bottom:5px;"></div>
-                <div style="height:50px;border:1px solid;margin-bottom:5px;"></div>
+                <div>
+                    <div class="account">
+                      <div class="left">
+                        <span>신한</span>
+                        <span>110-123-456789</span>
+                      </div>
+                      <div class="right">
+                        <a href="">복사</a>
+                      </div>
+                    </div>
+                    <div class="name">홍길동</div>
+                </div>
+                <hr>
+                <div>
+                  <div class="account">
+                    <div class="left">
+                      <span>신한</span>
+                      <span>110-123-456789</span>
+                    </div>
+                    <div class="right">
+                      <a href="">복사</a>
+                    </div>
+                  </div>
+                  <div class="name">홍길동</div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="accordion-item" style="border : 0px;">
+          <!-- 신부 -->
+          <div class="accordion-item" >
             <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="border : 1px solid;">
-                <div style="display:block;width:100%;text-align:center;">
-                  <span>신랑측 계좌번호</span>
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <div>
+                  <span>신부측 계좌번호</span>
                 </div> 
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <div style="height:50px;border:1px solid;margin-bottom:5px;"></div>
-                <div style="height:50px;border:1px solid;margin-bottom:5px;"></div>
+                <div>
+                  <div class="account">
+                    <div class="left">
+                      <span>신한</span>
+                      <span>110-123-456789</span>
+                    </div>
+                    <div class="right">
+                      <a href="javascript:void(0)">복사</a>
+                    </div>
+                  </div>
+                  <div class="name">홍길동</div>
+                </div>
+                <hr>
+                <div>
+                  <div class="account">
+                    <div class="left">
+                      <span>신한</span>
+                      <span>110-123-456789</span>
+                    </div>
+                    <div class="right">
+                      <a href="javascript:void(0)">복사</a>
+                    </div>
+                  </div>
+                  <div class="name">홍길동</div>
+                </div>
               </div>
             </div>
           </div>    
+
         </div>
 
        </section>
