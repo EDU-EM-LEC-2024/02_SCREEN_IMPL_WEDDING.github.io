@@ -56,6 +56,8 @@
     <link rel="stylesheet" href="./css/13_Modal_Common.css">
     <!-- 14_Modal_03Section_연락하기 -->
     <link rel="stylesheet" href="./css/14_Modal_03Section_연락하기.css">
+    <!-- 15_Modal_09Section_참석의사전달하기 -->
+    <link rel="stylesheet" href="./css/15_Modal_09Section_참석의사전달하기.css">
     
   </head>
   <body>
@@ -712,19 +714,70 @@
        <!-- 
         09 참석의사전달하기 Modal
         -->
-        <div class="modal fade" id="section_09_modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal section_09_md fade" id="section_09_modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div class="modal-dialog  modal-dialog-centered">
             <div class="modal-content">
               <div class="modal-header">
-                HEADER
+                <div class="title">
+                  참석 의사 전달
+                </div>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                BODY
+                    <form action="" >
+                      <table>
+                        <tr>
+                          <td class="left fontstyle">구분</td>
+                          <td class="right">
+                              <div>
+                                <input type="radio" id="husband-chk" name="type">
+                                <label for="husband-chk" class="fontstyle">신랑측</label>
+                              </div>
+                              <div>
+                                <input type="radio" id="wife-chk" name="type">
+                                <label for="wife-chk" class="fontstyle">신부측</label>
+                              </div>
+
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="fontstyle">성함</td>
+                          <td><input type="text" class="form-control"></td>
+                        </tr>
+                        <tr>
+                          <td class="fontstyle">참석인원</td>
+                          <td><input type="number" placeholder="본인 포함 총 참석인원" class="form-control"  max="10" step="1" min="1"></td>
+                        </tr>
+                        <tr>
+                          <td class="fontstyle">동행인</td>
+                          <td><input type="text" class="form-control" placeholder="함께 오시는분 성함"></td>
+                        </tr>
+                        <tr>
+                          <td class="fontstyle">식사여부</td>
+                          <td class="meals">
+                            <div>
+                              <input type="radio" id="meal-01" name="meal-type">
+                              <label for="meal-01" class="fontstyle">예정</label>
+                            </div>
+                            <div>
+                              <input type="radio" id="meal-02" name="meal-type">
+                              <label for="meal-02" class="fontstyle">안함</label>
+                            </div>
+                            <div>
+                              <input type="radio" id="meal-03" name="meal-type">
+                              <label for="meal-03" class="fontstyle">미정</label>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td colspan="2">
+                              <button class="btn btn-danger w-100 fontstyle">참석 의사 전달하기</button>
+                          </td>
+                        </tr>
+                      </table>
+                  </form>
               </div>
-              <div class="modal-footer">
-                FOOTER
-              </div>
+
             </div>
           </div>
         </div>
