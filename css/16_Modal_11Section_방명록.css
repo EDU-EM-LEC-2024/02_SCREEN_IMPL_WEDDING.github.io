@@ -1,0 +1,30 @@
+.section_11_md{
+    
+}
+.section_11_md .modal-content{
+   
+}
+
+.section_11_md .modal-header>.title{
+  font-size:1.2rem;
+}
+
+
+.section_11_md .modal-body{
+    font-size:.9rem;
+}
+.section_11_md .modal-body table{}
+.section_11_md .modal-body table input{
+   
+}
+.section_11_md .modal-body table textarea{
+    height : 100px;
+    resize: none;
+    margin : 15px 0px;
+    padding : 10px;
+}
+
+.section_11_md .modal-body table textarea::placeholder{
+    font-size:.9rem;
+}
+
