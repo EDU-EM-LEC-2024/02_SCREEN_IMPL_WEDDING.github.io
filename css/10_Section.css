@@ -1,0 +1,42 @@
+.wrapper>main>section:nth-child(10){
+
+    height : 100%;
+}
+
+
+.wrapper>main>section:nth-child(10)>.contents{
+    margin-bottom:40px;
+}
+.wrapper>main>section:nth-child(10)>.contents::before{
+    content:"";
+    display:block;
+    width:100%;
+    height:40px;
+    /* border : 1px solid gray; */
+    position:absolute;
+    left:0px;right:0px;
+    top:-50px;
+    
+    
+   
+    background-image: url("../images/02_Section_01.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+.wrapper>main>section:nth-child(10)>.accordion{
+    
+}
+
+.wrapper>main>section:nth-child(10)>.accordion>accordion-item{
+    
+}
+.wrapper>main>section:nth-child(10)>.accordion accordion-button{
+    display:flex;
+   
+}
+.wrapper>main>section:nth-child(10)>.accordion accordion-button::after{
+    font-size:0.6rem !important;
+}
