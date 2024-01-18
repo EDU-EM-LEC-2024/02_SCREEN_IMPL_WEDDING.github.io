@@ -1,5 +1,7 @@
 
-.wrapper>main>section:nth-child(2){}
+.wrapper>main>section:nth-child(2){
+    margin-top:40px;
+}
 .wrapper>main>section:nth-child(2)>.contents{
     position:relative;
 }
