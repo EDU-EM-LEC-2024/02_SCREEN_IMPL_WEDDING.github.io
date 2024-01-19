@@ -31,7 +31,7 @@ const createMap = (address,markerTitle)=>{
 
             // 인포윈도우로 장소에 대한 설명을 표시합니다
             var infowindow = new kakao.maps.InfoWindow({
-                content: '<div style="width:150px;text-align:center;padding:6px 0; color : gray; border-radius:15px;">'+markerTitle+'</div>'
+                content: '<div class="map-marker">'+markerTitle+'</div>'
             });
             infowindow.open(map, marker);
 
@@ -40,7 +40,7 @@ const createMap = (address,markerTitle)=>{
         } 
     });    
 
-
+    map.setDraggable(false);
 
 
 }
