@@ -12,6 +12,6 @@ spyEls.forEach(function(spyEl){
 })
 
 
-//02 SECTION01 의 배경음악 자동재생
+
 
 

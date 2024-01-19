@@ -25,7 +25,7 @@
 .wrapper>main>section:nth-child(6)>.map{
     width:320px;
     height : 320px;
-    border : 1px solid ;
+    /* border : 1px solid ; */
     margin : 0px auto;
 
     display:flex;
@@ -125,4 +125,4 @@
 }
 .wrapper>main>section:nth-child(6)>.info>.parking{
     padding-top : 10px;
-   
+}
