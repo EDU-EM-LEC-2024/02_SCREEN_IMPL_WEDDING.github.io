@@ -23,7 +23,40 @@ const cal_calender = (wedding_date,time)=>{
     console.log("START YOIL : ",monthStartDay);
     console.log("START YOIL : ",calendarMonthStartDay); //월요일기준으로 1 - 6(토) ,0(일)
 
+
+    //첫화면에 달력 랜더링
+    const Section01topDateEl = document.querySelector('.wrapper nav>div:nth-child(1)')
+    Section01topDateEl.innerHTML = calendarYear+" <span style=font-size:1.5rem>/</span> ";
+    if(calendarMonth<10)
+    Section01topDateEl.innerHTML += "0"+calendarMonth+" <span style=font-size:1.5rem>/</span> ";
+    else
+    Section01topDateEl.innerHTML += calendarMonth+" <span style=font-size:1.5rem>/</span> ";
+
+    if(d_day<10)
+    Section01topDateEl.innerHTML += "0"+d_day;
+    else
+    Section01topDateEl.innerHTML += d_day;   
+
+    //첫화면에 요일 랜더링
+    const yoilEl = document.querySelector('.wrapper nav>div:nth-child(2)')
+    if(yoil==0)
+        yoilEl.innerHTML = 'SUNDAY';
+    else if(yoil==1)
+        yoilEl.innerHTML = 'MONDAY';
+    else if(yoil==2)
+        yoilEl.innerHTML = 'TUESDAY';
+    else if(yoil==3)
+        yoilEl.innerHTML = 'WEDNESDAY';
+    else if(yoil==4)
+        yoilEl.innerHTML = 'THURSDAY';
+    else if(yoil==5)
+        yoilEl.innerHTML = 'FRIDAY';
+    else if(yoil==6)
+        yoilEl.innerHTML = 'SATURDAY';
+
+
     //화면에 달력 랜더링
+
 
     //-------------------
     // TOP-DATE
@@ -40,6 +73,7 @@ const cal_calender = (wedding_date,time)=>{
     else
         topDateEl.innerHTML += d_day;
 
+        
 
     //-------------------
     // TOP-HOURS

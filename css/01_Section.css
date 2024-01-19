@@ -8,9 +8,12 @@
 
 .wrapper>header>nav>div:nth-child(1){
     font-size:1.8rem;
+    margin-bottom:10px;
 }
 .wrapper>header>nav>div:nth-child(2){
     letter-spacing: 2px;
+    color : rgb(73, 65, 58);
+    font-size:.9rem;
 }
 
 /* main */
