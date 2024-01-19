@@ -78,6 +78,14 @@
 }
 
 
+.wrapper>main>section:nth-child(1) .bottom .datetime,
+.wrapper>main>section:nth-child(1) .bottom .hours,
+.wrapper>main>section:nth-child(1) .bottom .weddinghall
+{
+    font-size : 1rem;
+    margin : 5px;
+}
+
 /* footer */
 .wrapper>footer{}
 

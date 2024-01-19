@@ -24,7 +24,7 @@ const cal_calender = (wedding_date,time)=>{
     console.log("START YOIL : ",calendarMonthStartDay); //월요일기준으로 1 - 6(토) ,0(일)
 
 
-    //첫화면에 달력 랜더링
+    //01SECTION 헤더 YYYY/MM/DD 랜더링
     const Section01topDateEl = document.querySelector('.wrapper nav>div:nth-child(1)')
     Section01topDateEl.innerHTML = calendarYear+" <span style=font-size:1.5rem>/</span> ";
     if(calendarMonth<10)
@@ -37,7 +37,8 @@ const cal_calender = (wedding_date,time)=>{
     else
     Section01topDateEl.innerHTML += d_day;   
 
-    //첫화면에 요일 랜더링
+
+    ///01SECTION 헤더 요일 랜더링
     const yoilEl = document.querySelector('.wrapper nav>div:nth-child(2)')
     if(yoil==0)
         yoilEl.innerHTML = 'SUNDAY';
@@ -53,6 +54,22 @@ const cal_calender = (wedding_date,time)=>{
         yoilEl.innerHTML = 'FRIDAY';
     else if(yoil==6)
         yoilEl.innerHTML = 'SATURDAY';
+
+    ///01SECTION DATETIME에 연월일 요일 랜더링
+    const section01DatetimeEl = document.querySelector('.wrapper>main>section:nth-child(1) .datetime');
+    section01DatetimeEl.innerHTML = calendarYear+" 년 ";
+    if(calendarMonth<10)
+    section01DatetimeEl.innerHTML += "0"+calendarMonth+" 월 ";
+    else
+    section01DatetimeEl.innerHTML += calendarMonth+" 월 ";
+
+    if(d_day<10)
+    section01DatetimeEl.innerHTML += "0"+d_day+" 일 ";
+    else
+    section01DatetimeEl.innerHTML += d_day +" 일 ";   
+
+    const section01HoursEl = document.querySelector('.wrapper>main>section:nth-child(1) .bottom .hours');
+    section01HoursEl.innerHTML= time;
 
 
     //화면에 달력 랜더링
