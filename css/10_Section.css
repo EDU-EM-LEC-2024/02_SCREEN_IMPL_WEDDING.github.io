@@ -1,6 +1,7 @@
 .wrapper>main>section:nth-child(10){
 
     /* height : 400px; */
+    margin-top:40px;
 }
 
 
@@ -27,9 +28,19 @@
 }
 
 .wrapper>main>section:nth-child(10)>.contents>div{
-    font-size:1rem;
-    color:rgb(82, 69, 72);
+  
+    font-size:1.3rem;     
+    color :rgb(137, 117, 122);
+    font-size : 18.0513px;
+    letter-spacing: 0.5px;
+    height:32px;;
+    margin-bottom : 30px;
+
+    
 }
+
+
+
 
 .wrapper>main>section:nth-child(10)>.accordion{
     width : 320px;

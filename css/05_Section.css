@@ -1,12 +1,31 @@
-.wrapper>main>section:nth-child(5){}
-.wrapper>main>section:nth-child(5)>.sub-title{
-    font-size :  .7rem;
-    letter-spacing: 2px;
-    color:gray;
+.wrapper>main>section:nth-child(5){
+    margin-top:50px;   
+}
+.wrapper>main>section:nth-child(5)>.sub-title{ 
+    letter-spacing: 2px;  
+    margin-bottom:10px;
+    color : rgb(194, 178, 178);
+    font-size : 11.4872px;
+    letter-spacing: 3px;
+    height:20px;
+    text-align: center;
 }
 .wrapper>main>section:nth-child(5)>.greeting-title{
-    font-size:1.3rem;
+    font-size:1.3rem;     
+    color :rgb(137, 117, 122);
+    font-size : 18.0513px;
+    letter-spacing: 0.5px;
+    height:32px;;
+    margin-bottom : 30px;
 }
+
+.wrapper>main>section:nth-child(3)>.contents>.title>.m-title{
+
+}
+
+
+
+
 .wrapper>main>section:nth-child(5)>.gallery-block{
     width : 340px;
     height : 630px;
@@ -100,7 +119,7 @@
     position:absolute;
     left:0;
     right:0;
-    top:745px;
+    top:755px;
     margin : auto;
     z-index:5
 }
