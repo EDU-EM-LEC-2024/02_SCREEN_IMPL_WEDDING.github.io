@@ -1,4 +1,4 @@
-const wedding_date = new Date("2024-04-05");
+const wedding_date = new Date("2024-03-20");
 const wedding_hours = "오후 02시 30분";
 
 // CALENDAR FUNCTION 
@@ -174,6 +174,7 @@ const d_day_func = (weddingDate)=>{
         else
             dayEl.innerHTML = diffDay;
     })
+
 
     if(diffHour<10)
         diffHour="0"+diffHour;
