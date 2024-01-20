@@ -82,6 +82,7 @@
 
 .wrapper>footer>.bottom span{
     font-size:0.5rem;
+    cursor: pointer;
 }
 .wrapper>footer>.bottom>span>span{
     font-weight:800;

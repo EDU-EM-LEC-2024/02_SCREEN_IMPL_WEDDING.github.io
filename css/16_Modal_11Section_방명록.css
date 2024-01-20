@@ -1,5 +1,9 @@
 /*  */
 
+
+
+
+
 .section_11_md{
     overflow:auto;
 }
@@ -8,12 +12,20 @@
 }
 
 .section_11_md .modal-header{
-    height : 50px;
+
     position:relative;
     z-index:5;
+
+    height : 80px;
+    background-color: rgb(246, 245, 245);
+    border-bottom :0px;
+    position:relative;
+
+
 }
 .section_11_md .modal-header>.title{
-  font-size:.1.3rem;
+  font-size:.1.8rem;
+  color : gray;
 }
 
 

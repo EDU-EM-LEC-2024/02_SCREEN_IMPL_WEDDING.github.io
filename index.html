@@ -77,6 +77,10 @@
     <!-- kakao map  -->
     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=4c98b24b02bfbd026cbe7fe5300f9e1d&libraries=services"></script>
 
+    <!-- 23 카카오 공유 SDK -->
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+
+
      <!-- 
       JS LOCAL
       -->
@@ -94,6 +98,15 @@
     
     <!-- 21_JS_10Section_Clipboard_Copy -->
     <script src="./js/21_JS_10Section_Clipboard_Copy.js" defer></script>
+    
+    <!-- 22_JS_11Section_방명록 -->
+    <script src="./js/22_JS_11Section_방명록.js" defer></script>
+    
+    <!-- 23_JS_Footer_카톡공유_링크복사 -->
+    <script src="./js/23_JS_Footer_카톡공유_링크복사.js" defer></script>
+
+
+    
 
   </head>
   <body>
@@ -644,7 +657,7 @@
                 <span>축하글을 작성해 주세요.</span>
             </div>
           
-            <div> <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#section_11_modal">작성하기</a></div> 
+            <div> <a class="board_btn" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#section_11_modal">작성하기</a></div> 
           </div>
        </section>
 
@@ -667,13 +680,14 @@
             <div>
               <a href="javascript:void(0)">
                 <span class="material-symbols-outlined">mode_comment</span>
-                <span>카카오톡 공유하기</span>
+                <span class="kakao-share">카카오톡 공유하기</span>
               </a>
             </div>
             <div>
               <a href="javascript:void(0)">
                 <span class="material-symbols-outlined">attach_file</span>
-                <span>링크주소 공유하기</span>
+                <span class="url-copy">링크주소 공유하기</span>
+
               </a>
             </div>
           </div>
@@ -915,7 +929,7 @@
 
 
 
-    <script src="./js/common.js"></script>
+
 
 
     
