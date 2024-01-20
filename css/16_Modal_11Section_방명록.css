@@ -1,17 +1,26 @@
+/*  */
+
 .section_11_md{
-    
+    overflow:auto;
 }
 .section_11_md .modal-content{
-   
+    height:500px !important;
 }
 
+.section_11_md .modal-header{
+    height : 35px;
+}
 .section_11_md .modal-header>.title{
-  font-size:1.2rem;
+  font-size:.7rem;
 }
 
 
 .section_11_md .modal-body{
     font-size:.9rem;
+    /* border :1px solid red; */
+    overflow:auto;
+  
+
 }
 .section_11_md .modal-body table{}
 .section_11_md .modal-body table input{
@@ -28,3 +37,13 @@
     font-size:.9rem;
 }
 
+
+/*  */
+.section_11_md .modal-body .utterances{
+   
+
+    font-size:0.8rem !important;
+}
+.utterances-frame{
+    font-size:0.6rem;
+}
